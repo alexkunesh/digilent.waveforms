@@ -15,8 +15,8 @@ optdepends=('python: Python example scripts'
             'python-scipy: Python example scripts')
 options=('!strip')
 install=${pkgname}.install
-source_aarch64=("https://files.digilent.com/Software/Waveforms/${pkgver}/${pkgname}_${pkgver}_arm64.deb")
-source_x86_64=("https://files.digilent.com/Software/Waveforms/${pkgver}/${pkgname}_${pkgver}_amd64.deb")
+source_aarch64=("./${pkgver}/${pkgname}_${pkgver}_arm64.deb")
+source_x86_64=("./${pkgver}/${pkgname}_${pkgver}_amd64.deb")
 sha256sums_aarch64=('14ffc4503f739e87a957ef363f994f544e49b77decc4e3ef4bbcac3832c80345')
 sha256sums_x86_64=('d2979aab726c9202a48a1c5d2b314531513171c0b62fa2f2a2edcd29202727d3')
 
